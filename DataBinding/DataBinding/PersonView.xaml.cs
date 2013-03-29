@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Windows;
@@ -25,10 +26,13 @@ namespace DataBinding
 
             var personVM = new PersonViewModel
                 {
-                    FirstName = "Mark"
+                    FirstName = "Mark",
+                    NickNames = new ObservableCollection<string> { "Bob", "John" }
                 };
 
-            DataContext = personVM;            
+
+
+            DataContext = personVM;
         }
     }
 }
