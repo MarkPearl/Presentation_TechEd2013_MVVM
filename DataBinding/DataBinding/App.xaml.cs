@@ -4,6 +4,8 @@ using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Windows;
+using DataBinding.ViewModels;
+using DataBinding.Views;
 
 namespace DataBinding
 {
@@ -14,9 +16,11 @@ namespace DataBinding
     {
         public App()
         {
-
-
-
+            var view = new PersonView();
+            var viewModel = new PersonViewModel {FirstName = "Bob Marley"};
+            view.DataContext = viewModel;
+            view.Show();
         }
     }
 }
+
