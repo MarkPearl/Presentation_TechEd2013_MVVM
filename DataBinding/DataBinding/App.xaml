@@ -1,8 +1,9 @@
 ﻿<Application x:Class="DataBinding.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             StartupUri="PersonView.xaml">
+             xmlns:local="clr-namespace:DataBinding"
+             StartupUri="Views\PersonView.xaml">
     <Application.Resources>
-         
+         <local:ViewModelLocator x:Key="ViewModelLocator"/>
     </Application.Resources>
 </Application>

@@ -3,12 +3,12 @@ using System.Windows.Input;
 
 namespace DataBinding
 {
-    public class MyDelegateCommand : ICommand
+    public class DelegateCommand : ICommand
     {
         private readonly Action _executeMethod;
         private readonly Func<bool> _canExecute;
          
-        public MyDelegateCommand(Action executeMethod, Func<bool> canExecute )
+        public DelegateCommand(Action executeMethod, Func<bool> canExecute )
         {
             _executeMethod = executeMethod;
             _canExecute = canExecute;
