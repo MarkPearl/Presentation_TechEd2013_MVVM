@@ -8,7 +8,10 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <TextBox Text="Not Bound to Mouse Double Click" Grid.Row="0" />        
-        <TextBox local:MouseDownToCommand.MappedCommand="{Binding DoItCommand}" Text="Bound to Mouse Double Click" Grid.Row="1" />                
+        <TextBox Text="{Binding PersonGender}" 
+                 Background="{Binding PersonGender, Converter={local:GenderToColor}}"
+                 Grid.Row="0"/>                
+        
+        <Button Command="{Binding DoItCommand}" Grid.Row="1">...</Button>
     </Grid>
 </Window>

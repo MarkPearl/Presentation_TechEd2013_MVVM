@@ -26,8 +26,7 @@ namespace DataBinding
 
             var personVM = new PersonViewModel
                 {
-                    FirstName = "Mark",
-                    NickNames = new ObservableCollection<string> { "Bob", "John" }
+                    PersonGender = Gender.Male
                 };
 
             DataContext = personVM;

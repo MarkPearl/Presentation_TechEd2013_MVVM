@@ -61,7 +61,7 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MouseDownToCommand.cs" />
+    <Compile Include="GenderToColor.cs" />
     <Compile Include="MyDelegateCommand.cs" />
     <Compile Include="PersonViewModel.cs" />
     <Compile Include="PersonView.xaml.cs">

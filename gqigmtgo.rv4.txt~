@@ -1,0 +1,17 @@
+﻿Behavior to Command
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 5 commits.
+#
+# Changes to be committed:
+#   (use "git reset HEAD^1 <file>..." to unstage)
+#
+#	modified:   DataBinding/DataBinding/DataBinding.csproj
+#	new file:   DataBinding/DataBinding/MouseDownToCommand.cs
+#	new file:   DataBinding/DataBinding/MyDelegateCommand.cs
+#	modified:   DataBinding/DataBinding/PersonView.xaml
+#	modified:   DataBinding/DataBinding/PersonViewModel.cs
+#
+

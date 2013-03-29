@@ -6,6 +6,7 @@ namespace DataBinding
 {
     public class PersonViewModel : INotifyPropertyChanged
     {
+        #region ...
         public MyDelegateCommand DoItCommand { get; set; }
 
         public PersonViewModel()
@@ -15,12 +16,23 @@ namespace DataBinding
 
         private void DoThis()
         {
-            MessageBox.Show("Hello World");
-            DoItCommand.UpdateCanExecuteState();
+            PersonGender = Gender.Female;
+        }
+
+        #endregion        
+
+        public Gender PersonGender
+        {
+            get { return _personGender; }
+            set { 
+                _personGender = value; 
+                PropertyChanged(this, new PropertyChangedEventArgs("PersonGender"));
+            }
         }
 
         #region ...
         private string _firstName;
+        private Gender _personGender;
 
         public string FirstName
         {
@@ -35,24 +47,15 @@ namespace DataBinding
             }
         }
 
-        private ObservableCollection<string> _nicknames;
-        
-        public ObservableCollection<string> NickNames
-        {
-            get { return _nicknames; }
-            set
-            {
-                if (_nicknames != value)
-                {
-                    _nicknames = value;
-                    PropertyChanged(this, new PropertyChangedEventArgs("Nicknames"));
-                }
-            }
-        }
-
 
         public event PropertyChangedEventHandler PropertyChanged = delegate { };
         #endregion
+    }
+
+    public enum Gender
+    {
+        Male = 0,
+        Female = 1,
     }
 }
 
