@@ -30,9 +30,7 @@ namespace DataBinding
                     NickNames = new ObservableCollection<string> { "Bob", "John" }
                 };
 
-
-
             DataContext = personVM;
         }
-    }
+    }    
 }
