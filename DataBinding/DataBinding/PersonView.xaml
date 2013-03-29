@@ -1,0 +1,11 @@
+﻿<Window x:Class="DataBinding.PersonView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="PersonView" Height="350" Width="525">
+    <StackPanel>
+        <TextBlock Text="Person ID"/>
+        <TextBox Text ="{Binding PersonID}"></TextBox>
+        <TextBlock Text="First Name"/>
+        <TextBox Text="{Binding Path=FirstName}"/>
+    </StackPanel>
+</Window>
