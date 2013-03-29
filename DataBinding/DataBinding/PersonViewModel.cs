@@ -1,12 +1,26 @@
-﻿namespace DataBinding
-{
-    public class PersonViewModel
-    {
-        public string FirstName { get; set; }
-        public string PersonID { get; set; }
+﻿using System.ComponentModel;
+using DataBinding.Annotations;
 
-        public PersonViewModel()
+namespace DataBinding
+{
+    public class PersonViewModel : INotifyPropertyChanged
+    {
+        private string _firstName;
+
+        public string FirstName
         {
+            get { return _firstName; }
+            set
+            {
+                if (_firstName != value)
+                {
+                    _firstName = value;
+                    PropertyChanged(this, new PropertyChangedEventArgs("FirstName"));
+                }
+            }
         }
+
+        public event PropertyChangedEventHandler PropertyChanged = delegate { }; 
     }
 }
+

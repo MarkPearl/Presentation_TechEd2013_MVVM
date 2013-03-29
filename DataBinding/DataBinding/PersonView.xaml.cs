@@ -25,13 +25,10 @@ namespace DataBinding
 
             var personVM = new PersonViewModel
                 {
-                    PersonID = "123",
                     FirstName = "Mark"
                 };
 
-            DataContext = personVM;
+            DataContext = personVM;            
         }
-
-
     }
 }
