@@ -17,7 +17,7 @@ namespace DataBinding
         public App()
         {
             var view = new PersonView();
-            var viewModel = new PersonViewModel {FirstName = "Bob Marley"};
+            var viewModel = new PersonViewModel {FirstName = "Mark Pearl"};
             view.DataContext = viewModel;
             view.Show();
         }
