@@ -21,23 +21,23 @@ namespace DataBinding
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly Person _cusotmer; 
+        private readonly Person _person; 
 
         public MainWindow()
         {
             InitializeComponent();
 
-            _cusotmer = new Person
+            _person = new Person
                 {
                     Name = "Bob", 
-                    Nicknames = new List<string> {"Nickname 1", "Nickname 2"}
+                    Nicknames = new List<string> {"Original Nickname 1", "Original Nickname 2"}
                 };
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            _cusotmer.Name = "New Name";
-            _cusotmer.Nicknames.Add("Another Nickname");
+            _person.Name = "New Name";
+            _person.Nicknames.Add("Additional Nickname");
         }
     }
 }
