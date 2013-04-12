@@ -26,7 +26,7 @@ namespace Commanding
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Do something");
+            MessageBox.Show("Hello from the Code Behind");
         }
     }
 }
