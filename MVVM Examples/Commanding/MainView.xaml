@@ -9,6 +9,6 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         <TextBox Text="{Binding Name}"/>
-        <Button Content="Button" Grid.Row="2"/>
+        <Button Content="Button" Grid.Row="2" Click="ButtonBase_OnClick"/>
     </Grid>
 </Window>

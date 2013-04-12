@@ -23,5 +23,10 @@ namespace Commanding
         {
             InitializeComponent();
         }
+
+        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Do something");
+        }
     }
 }
