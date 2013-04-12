@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataBinding", "DataBinding\DataBinding.csproj", "{C1B801B8-68EC-4691-B664-4359C939C264}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 DataBinding", "DataBinding\01 DataBinding.csproj", "{C1B801B8-68EC-4691-B664-4359C939C264}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 Commanding", "Commanding\02 Commanding.csproj", "{6AFEAAD2-A703-45A6-A611-7EF6DB0AFA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{C1B801B8-68EC-4691-B664-4359C939C264}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1B801B8-68EC-4691-B664-4359C939C264}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1B801B8-68EC-4691-B664-4359C939C264}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AFEAAD2-A703-45A6-A611-7EF6DB0AFA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AFEAAD2-A703-45A6-A611-7EF6DB0AFA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AFEAAD2-A703-45A6-A611-7EF6DB0AFA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AFEAAD2-A703-45A6-A611-7EF6DB0AFA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
