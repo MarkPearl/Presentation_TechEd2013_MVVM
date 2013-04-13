@@ -1,8 +1,4 @@
-﻿using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Input;
+﻿using System.Windows.Input;
 
 namespace Converters
 {
@@ -15,8 +11,11 @@ namespace Converters
 
         public MainViewModel()
         {
-            MoveRateUp = new DelegateCommand(() => { Rating++; }, () => true);
-            MoveRateDown = new DelegateCommand(() => { Rating--; }, () => true);
+            MoveRateUp = new DelegateCommand(
+                () => { Rating++; }, () => true);
+
+            MoveRateDown = new DelegateCommand(
+                () => { Rating--; }, () => true);
         }
 
         public int Rating
