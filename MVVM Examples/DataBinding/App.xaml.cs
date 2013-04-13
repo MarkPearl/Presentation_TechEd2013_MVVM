@@ -1,4 +1,4 @@
-﻿using System.Windows;
+﻿using System.Windows; 
 
 namespace DataBinding
 {
@@ -7,5 +7,17 @@ namespace DataBinding
     /// </summary>
     public partial class App : Application
     {
+        public App()
+        {
+            var person = new Person
+            {
+                Name = "Bob",
+                Nicknames = { "Original Nickname 1" }
+            };
+
+            var mainWindow = new MainWindow();
+
+            mainWindow.DataContext = person;
+        } 
     }
 }
