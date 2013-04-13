@@ -10,6 +10,6 @@
         </Grid.RowDefinitions>
         <TextBox/>
         <ListBox Grid.Row="1"/>
-        <Button Content="Trigger Action"/>
+        <Button Content="Trigger Action" Grid.Row="2"/>
     </Grid>
 </Window>

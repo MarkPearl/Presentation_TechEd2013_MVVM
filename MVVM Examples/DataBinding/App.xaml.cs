@@ -1,4 +1,5 @@
-﻿using System.Windows; 
+﻿using System.Collections.Generic;
+using System.Windows; 
 
 namespace DataBinding
 {
@@ -12,12 +13,14 @@ namespace DataBinding
             var person = new Person
             {
                 Name = "Bob",
-                Nicknames = { "Original Nickname 1" }
+                Nicknames = new List<string> { "Original Nickname 1" }
             };
 
             var mainWindow = new MainWindow();
 
             mainWindow.DataContext = person;
+
+            mainWindow.Show();
         } 
     }
 }
