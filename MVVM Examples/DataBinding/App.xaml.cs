@@ -1,5 +1,5 @@
 ﻿using System.Collections.Generic;
-using System.Windows; 
+using System.Windows;
 
 namespace DataBinding
 {
@@ -10,15 +10,29 @@ namespace DataBinding
     {
         public App()
         {
+            #region ...
+
+            var frodo = new Dog
+                {
+                    Name = "Frodo",
+                    Nicknames = new List<string> { "doggy dog" }
+                };
+
+            var kit = new Car
+                {
+                    Name = "Kit"
+                };
+
             var person = new Person
             {
                 Name = "Bob",
                 Nicknames = new List<string> { "Original Nickname 1" }
             };
 
-            var mainWindow = new MainWindow();
+            #endregion       
 
-            mainWindow.Show();
-        } 
+            var mainWindow = new MainWindow();
+            mainWindow.Show();            
+        }
     }
 }
