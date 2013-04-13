@@ -18,8 +18,6 @@ namespace DataBinding
 
             var mainWindow = new MainWindow();
 
-            mainWindow.DataContext = person;
-
             mainWindow.Show();
         } 
     }
