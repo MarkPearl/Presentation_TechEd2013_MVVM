@@ -9,7 +9,10 @@ namespace ViewFirstApproach
 
         public MainViewModel()
         {
-            DoSomething = new DelegateCommand(() => { MessageBox.Show(string.Format("Hello {0}", Name)); }, () => true);
+            DoSomething = new DelegateCommand(() =>
+                {
+                    MessageBox.Show(string.Format("Hello {0}", Name));
+                }, () => true);
         }
     }
 }

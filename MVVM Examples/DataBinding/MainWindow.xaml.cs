@@ -8,7 +8,7 @@ namespace DataBinding
     /// </summary>
     public partial class MainWindow : Window
     {
-        private readonly Person _person; 
+        private readonly Person _person;
 
         public MainWindow()
         {
@@ -16,8 +16,12 @@ namespace DataBinding
 
             _person = new Person
                 {
-                    Name = "Bob", 
-                    Nicknames = new List<string> {"Original Nickname 1", "Original Nickname 2"}
+                    Name = "Bob",
+                    Nicknames = new List<string>
+                        {
+                            "Original Nickname 1", 
+                            "Original Nickname 2"
+                        }
                 };
         }
 

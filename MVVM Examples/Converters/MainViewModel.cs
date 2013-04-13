@@ -6,16 +6,28 @@ namespace Converters
     {
         private int _rating;
 
-        public ICommand MoveRateUp { get; set; }
-        public ICommand MoveRateDown { get; set; }
+        public DelegateCommand MoveRateUp { get; set; }
+        public DelegateCommand MoveRateDown { get; set; }
 
         public MainViewModel()
         {
             MoveRateUp = new DelegateCommand(
-                () => { Rating++; }, () => true);
+                () => { Rating++; }, CanRateUp);
 
             MoveRateDown = new DelegateCommand(
-                () => { Rating--; }, () => true);
+                () => { Rating--; }, CanRateDown);                
+        }
+
+        private bool CanRateUp()
+        {
+            if (Rating > 2) return false;
+            return true;
+        }
+
+        private bool CanRateDown()
+        {
+            if (Rating < 1) return false;
+            return true;
         }
 
         public int Rating
@@ -25,6 +37,9 @@ namespace Converters
             {
                 _rating = value;
                 OnPropertyChanged();
+
+                MoveRateDown.UpdateCanExecuteState();
+                MoveRateUp.UpdateCanExecuteState();
             }
         }
     }
