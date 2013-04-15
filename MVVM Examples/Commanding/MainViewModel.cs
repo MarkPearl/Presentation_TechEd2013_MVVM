@@ -10,8 +10,6 @@ namespace Commanding
     {
         private string _name;
 
-        public ICommand DoSomething { get; set; }
-
         public string Name
         {
             get { return _name; }
