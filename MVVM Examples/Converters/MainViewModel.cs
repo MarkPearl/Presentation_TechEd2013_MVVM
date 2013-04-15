@@ -1,6 +1,4 @@
-﻿using System.Windows.Input;
-
-namespace Converters
+﻿namespace Converters
 {
     public class MainViewModel : ViewModelBase
     {
