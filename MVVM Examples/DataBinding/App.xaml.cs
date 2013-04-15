@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Windows;
+using DataBinding.Stuff;
 
 namespace DataBinding
 {
@@ -21,15 +22,15 @@ namespace DataBinding
             var kit = new Car
                 {
                     Name = "Kit"
-                };
+                };            
+
+            #endregion       
 
             var person = new Person
             {
                 Name = "Bob",
                 Nicknames = new List<string> { "Original Nickname 1" }
             };
-
-            #endregion       
 
             var mainWindow = new MainWindow();
             mainWindow.Show();            
