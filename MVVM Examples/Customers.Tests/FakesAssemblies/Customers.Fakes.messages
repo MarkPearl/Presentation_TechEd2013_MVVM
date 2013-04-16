@@ -1,0 +1,6 @@
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate stub for Customers.Properties.Resources: type is not visible to exported or assembly(Customers.Fakes).
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate stub for Customers.Properties.Settings: type is sealed.
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate shim for Customers.Repositories.ICustomerRepository: type is an interface.
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate shim for Customers.Services.IRatingService: type is an interface.
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate shim for Customers.Properties.Resources: type is not visible to exported or assembly(Customers.Fakes).
+D:\GitHub\TechEd2013_MocksStubsShims\Customers.Tests\Fakes\Customers.fakes : warning : Cannot generate shim for Customers.Properties.Settings: type is not visible to exported or assembly(Customers.Fakes).

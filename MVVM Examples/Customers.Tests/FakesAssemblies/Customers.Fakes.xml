@@ -1,0 +1,1520 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Customers.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Customers.Commands.Fakes.ShimAlwaysExecuteCommand">
+            <summary>Shim type of Customers.Commands.AlwaysExecuteCommand</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.#ctor(Customers.Commands.AlwaysExecuteCommand)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.Bind(System.Windows.Input.ICommand)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of AlwaysExecuteCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of AlwaysExecuteCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.CanExecuteObject">
+            <summary>Sets the shim of AlwaysExecuteCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.ConstructorAction">
+            <summary>Sets the shim of AlwaysExecuteCommand.AlwaysExecuteCommand(Action executeAction)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.ExecuteObject">
+            <summary>Sets the shim of AlwaysExecuteCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.OnCanExecuteChanged">
+            <summary>Sets the shim of AlwaysExecuteCommand.OnCanExecuteChanged()</summary>
+        </member>
+        <member name="T:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances.CanExecuteChangedAddEventHandler">
+            <summary>Sets the shim of AlwaysExecuteCommand.add_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances.CanExecuteChangedRemoveEventHandler">
+            <summary>Sets the shim of AlwaysExecuteCommand.remove_CanExecuteChanged(EventHandler value)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances.CanExecuteObject">
+            <summary>Sets the shim of AlwaysExecuteCommand.CanExecute(Object parameter)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances.ExecuteObject">
+            <summary>Sets the shim of AlwaysExecuteCommand.Execute(Object parameter)</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.ShimAlwaysExecuteCommand.AllInstances.OnCanExecuteChanged">
+            <summary>Sets the shim of AlwaysExecuteCommand.OnCanExecuteChanged()</summary>
+        </member>
+        <member name="T:Customers.Commands.Fakes.StubAlwaysExecuteCommand">
+            <summary>Stub type of Customers.Commands.AlwaysExecuteCommand</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.StubAlwaysExecuteCommand.#ctor(System.Action)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.StubAlwaysExecuteCommand.InitializeStub">
+            <summary>Initializes a new instance of type StubAlwaysExecuteCommand</summary>
+        </member>
+        <member name="M:Customers.Commands.Fakes.StubAlwaysExecuteCommand.OnCanExecuteChanged">
+            <summary>Sets the stub of AlwaysExecuteCommand.OnCanExecuteChanged()</summary>
+        </member>
+        <member name="F:Customers.Commands.Fakes.StubAlwaysExecuteCommand.OnCanExecuteChanged01">
+            <summary>Sets the stub of AlwaysExecuteCommand.OnCanExecuteChanged()</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.StubAlwaysExecuteCommand.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.StubAlwaysExecuteCommand.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.Commands.Fakes.StubAlwaysExecuteCommand.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.DTO.Fakes.ShimCustomer">
+            <summary>Shim type of Customers.DTO.Customer</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.ShimCustomer.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.ShimCustomer.#ctor(Customers.DTO.Customer)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.ShimCustomer.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.ShimCustomer.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.Constructor">
+            <summary>Sets the shim of Customer.Customer()</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.IdGet">
+            <summary>Sets the shim of Customer.get_Id()</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.IdSetInt32">
+            <summary>Sets the shim of Customer.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.NameGet">
+            <summary>Sets the shim of Customer.get_Name()</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.NameSetString">
+            <summary>Sets the shim of Customer.set_Name(String value)</summary>
+        </member>
+        <member name="T:Customers.DTO.Fakes.ShimCustomer.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.AllInstances.IdGet">
+            <summary>Sets the shim of Customer.get_Id()</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.AllInstances.IdSetInt32">
+            <summary>Sets the shim of Customer.set_Id(Int32 value)</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.AllInstances.NameGet">
+            <summary>Sets the shim of Customer.get_Name()</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.ShimCustomer.AllInstances.NameSetString">
+            <summary>Sets the shim of Customer.set_Name(String value)</summary>
+        </member>
+        <member name="T:Customers.DTO.Fakes.StubCustomer">
+            <summary>Stub type of Customers.DTO.Customer</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.StubCustomer.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.DTO.Fakes.StubCustomer.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomer</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.StubCustomer.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.StubCustomer.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.DTO.Fakes.StubCustomer.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.Fakes.ShimApp">
+            <summary>Shim type of Customers.App</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimApp.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimApp.#ctor(Customers.App)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimApp.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimApp.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimApp.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimApp.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimApp.Constructor">
+            <summary>Sets the shim of App.App()</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimApp.Main">
+            <summary>Sets the shim of App.Main()</summary>
+        </member>
+        <member name="T:Customers.Fakes.ShimApp.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Customers.Fakes.ShimCustomerView">
+            <summary>Shim type of Customers.CustomerView</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.#ctor(Customers.CustomerView)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.IInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.Markup.IAddChild)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.Media.Animation.IAnimatable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.IFrameworkInputElement)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.ComponentModel.ISupportInitialize)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.Markup.IComponentConnector)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Customers.Fakes.ShimCustomerView.Bind(System.Windows.Markup.IQueryAmbient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.Constructor">
+            <summary>Sets the shim of CustomerView.CustomerView()</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.InitializeComponent">
+            <summary>Sets the shim of CustomerView.InitializeComponent()</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of CustomerView.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="T:Customers.Fakes.ShimCustomerView.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.AllInstances.InitializeComponent">
+            <summary>Sets the shim of CustomerView.InitializeComponent()</summary>
+        </member>
+        <member name="P:Customers.Fakes.ShimCustomerView.AllInstances.SystemWindowsMarkupIComponentConnectorConnectInt32Object">
+            <summary>Sets the shim of CustomerView.System.Windows.Markup.IComponentConnector.Connect(Int32 connectionId, Object target)</summary>
+        </member>
+        <member name="T:Customers.Fakes.StubApp">
+            <summary>Stub type of Customers.App</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.InitializeStub">
+            <summary>Initializes a new instance of type StubApp</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Application.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnActivatedEventArgs">
+            <summary>Sets the stub of Application.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnDeactivated(System.EventArgs)">
+            <summary>Sets the stub of Application.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnDeactivatedEventArgs">
+            <summary>Sets the stub of Application.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnExit(System.Windows.ExitEventArgs)">
+            <summary>Sets the stub of Application.OnExit(ExitEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnExitExitEventArgs">
+            <summary>Sets the stub of Application.OnExit(ExitEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnFragmentNavigation(System.Windows.Navigation.FragmentNavigationEventArgs)">
+            <summary>Sets the stub of Application.OnFragmentNavigation(FragmentNavigationEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnFragmentNavigationFragmentNavigationEventArgs">
+            <summary>Sets the stub of Application.OnFragmentNavigation(FragmentNavigationEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnLoadCompleted(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnLoadCompleted(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnLoadCompletedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnLoadCompleted(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnNavigated(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnNavigated(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnNavigatedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnNavigated(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnNavigating(System.Windows.Navigation.NavigatingCancelEventArgs)">
+            <summary>Sets the stub of Application.OnNavigating(NavigatingCancelEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnNavigatingNavigatingCancelEventArgs">
+            <summary>Sets the stub of Application.OnNavigating(NavigatingCancelEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnNavigationFailed(System.Windows.Navigation.NavigationFailedEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationFailed(NavigationFailedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnNavigationFailedNavigationFailedEventArgs">
+            <summary>Sets the stub of Application.OnNavigationFailed(NavigationFailedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnNavigationProgress(System.Windows.Navigation.NavigationProgressEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationProgress(NavigationProgressEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnNavigationProgressNavigationProgressEventArgs">
+            <summary>Sets the stub of Application.OnNavigationProgress(NavigationProgressEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnNavigationStopped(System.Windows.Navigation.NavigationEventArgs)">
+            <summary>Sets the stub of Application.OnNavigationStopped(NavigationEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnNavigationStoppedNavigationEventArgs">
+            <summary>Sets the stub of Application.OnNavigationStopped(NavigationEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnSessionEnding(System.Windows.SessionEndingCancelEventArgs)">
+            <summary>Sets the stub of Application.OnSessionEnding(SessionEndingCancelEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnSessionEndingSessionEndingCancelEventArgs">
+            <summary>Sets the stub of Application.OnSessionEnding(SessionEndingCancelEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubApp.OnStartup(System.Windows.StartupEventArgs)">
+            <summary>Sets the stub of Application.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubApp.OnStartupStartupEventArgs">
+            <summary>Sets the stub of Application.OnStartup(StartupEventArgs e)</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubApp.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubApp.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubApp.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.Fakes.StubCustomerView">
+            <summary>Stub type of Customers.CustomerView</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.AddChild(System.Object)">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.AddChildObject">
+            <summary>Sets the stub of ContentControl.AddChild(Object value)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.AddText(System.String)">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.AddTextString">
+            <summary>Sets the stub of ContentControl.AddText(String text)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.ArrangeOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.ArrangeOverrideSize">
+            <summary>Sets the stub of Window.ArrangeOverride(Size arrangeBounds)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.BeginInit">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.BeginInit01">
+            <summary>Sets the stub of FrameworkElement.BeginInit()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.EndInit">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.EndInit01">
+            <summary>Sets the stub of FrameworkElement.EndInit()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.GetLayoutClip(System.Windows.Size)">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.GetLayoutClipSize">
+            <summary>Sets the stub of FrameworkElement.GetLayoutClip(Size layoutSlotSize)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.GetUIParentCore">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.GetUIParentCore01">
+            <summary>Sets the stub of FrameworkElement.GetUIParentCore()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.GetVisualChild(System.Int32)">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.GetVisualChildInt32">
+            <summary>Sets the stub of FrameworkElement.GetVisualChild(Int32 index)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.HandlesScrollingGet">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.HasEffectiveKeyboardFocusGet">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.HitTestCore(System.Windows.Media.GeometryHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.HitTestCore(System.Windows.Media.PointHitTestParameters)">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.HitTestCoreGeometryHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(GeometryHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.HitTestCorePointHitTestParameters">
+            <summary>Sets the stub of UIElement.HitTestCore(PointHitTestParameters hitTestParameters)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerView</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.IsEnabledCoreGet">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.LogicalChildrenGet">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.MeasureOverride(System.Windows.Size)">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.MeasureOverrideSize">
+            <summary>Sets the stub of Window.MeasureOverride(Size availableSize)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnAccessKey(System.Windows.Input.AccessKeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnAccessKeyAccessKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnAccessKey(AccessKeyEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnActivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnActivatedEventArgs">
+            <summary>Sets the stub of Window.OnActivated(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnApplyTemplate">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnApplyTemplate01">
+            <summary>Sets the stub of FrameworkElement.OnApplyTemplate()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnChildDesiredSizeChanged(System.Windows.UIElement)">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnChildDesiredSizeChangedUIElement">
+            <summary>Sets the stub of UIElement.OnChildDesiredSizeChanged(UIElement child)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnClosed(System.EventArgs)">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnClosedEventArgs">
+            <summary>Sets the stub of Window.OnClosed(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnClosing(System.ComponentModel.CancelEventArgs)">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnClosingCancelEventArgs">
+            <summary>Sets the stub of Window.OnClosing(CancelEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContentChanged(System.Object,System.Object)">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContentChangedObjectObject">
+            <summary>Sets the stub of Window.OnContentChanged(Object oldContent, Object newContent)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContentRendered(System.EventArgs)">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContentRenderedEventArgs">
+            <summary>Sets the stub of Window.OnContentRendered(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContentStringFormatChanged(System.String,System.String)">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContentStringFormatChangedStringString">
+            <summary>Sets the stub of ContentControl.OnContentStringFormatChanged(String oldContentStringFormat, String newContentStringFormat)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContentTemplateChanged(System.Windows.DataTemplate,System.Windows.DataTemplate)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContentTemplateChangedDataTemplateDataTemplate">
+            <summary>Sets the stub of ContentControl.OnContentTemplateChanged(DataTemplate oldContentTemplate, DataTemplate newContentTemplate)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContentTemplateSelectorChanged(System.Windows.Controls.DataTemplateSelector,System.Windows.Controls.DataTemplateSelector)">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContentTemplateSelectorChangedDataTemplateSelectorDataTemplateSelector">
+            <summary>Sets the stub of ContentControl.OnContentTemplateSelectorChanged(DataTemplateSelector oldContentTemplateSelector, DataTemplateSelector newContentTemplateSelector)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContextMenuClosing(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContextMenuClosingContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuClosing(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnContextMenuOpening(System.Windows.Controls.ContextMenuEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnContextMenuOpeningContextMenuEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnContextMenuOpening(ContextMenuEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnCreateAutomationPeer">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnCreateAutomationPeer01">
+            <summary>Sets the stub of Window.OnCreateAutomationPeer()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnDeactivated(System.EventArgs)">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnDeactivatedEventArgs">
+            <summary>Sets the stub of Window.OnDeactivated(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGotFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGotFocusRoutedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnGotFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGotMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGotMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnGotMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGotStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGotStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnGotStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnGotTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnGotTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnGotTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnInitialized(System.EventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnInitializedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsKeyboardFocusWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsKeyboardFocusWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsKeyboardFocusedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsKeyboardFocusedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsKeyboardFocusedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsMouseCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsMouseCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsMouseCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsMouseCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsMouseDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsMouseDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsMouseDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsStylusCaptureWithinChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsStylusCaptureWithinChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCaptureWithinChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsStylusCapturedChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsStylusCapturedChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusCapturedChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnIsStylusDirectlyOverChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnIsStylusDirectlyOverChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnIsStylusDirectlyOverChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLocationChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLocationChangedEventArgs">
+            <summary>Sets the stub of Window.OnLocationChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLostFocus(System.Windows.RoutedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLostFocusRoutedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostFocus(RoutedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLostMouseCapture(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLostMouseCaptureMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnLostMouseCapture(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLostStylusCapture(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLostStylusCaptureStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnLostStylusCapture(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnLostTouchCapture(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnLostTouchCaptureTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnLostTouchCapture(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationBoundaryFeedback(System.Windows.Input.ManipulationBoundaryFeedbackEventArgs)">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationBoundaryFeedbackManipulationBoundaryFeedbackEventArgs">
+            <summary>Sets the stub of Window.OnManipulationBoundaryFeedback(ManipulationBoundaryFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationCompleted(System.Windows.Input.ManipulationCompletedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationCompletedManipulationCompletedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationCompleted(ManipulationCompletedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationDelta(System.Windows.Input.ManipulationDeltaEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationDeltaManipulationDeltaEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationDelta(ManipulationDeltaEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationInertiaStarting(System.Windows.Input.ManipulationInertiaStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationInertiaStartingManipulationInertiaStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationInertiaStarting(ManipulationInertiaStartingEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationStarted(System.Windows.Input.ManipulationStartedEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationStartedManipulationStartedEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarted(ManipulationStartedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnManipulationStarting(System.Windows.Input.ManipulationStartingEventArgs)">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnManipulationStartingManipulationStartingEventArgs">
+            <summary>Sets the stub of UIElement.OnManipulationStarting(ManipulationStartingEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseEnter(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseEnterMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseEnter(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseLeave(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseLeaveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeave(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewDragEnter(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewDragEnterDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragEnter(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewDragLeave(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewDragLeaveDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragLeave(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewDragOver(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewDragOverDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDragOver(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewDrop(System.Windows.DragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewDropDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewDrop(DragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewGiveFeedback(System.Windows.GiveFeedbackEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewGiveFeedbackGiveFeedbackEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGiveFeedback(GiveFeedbackEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewGotKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewGotKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewGotKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewKeyDown(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewKeyDownKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyDown(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewKeyUp(System.Windows.Input.KeyEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewKeyUpKeyEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewKeyUp(KeyEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewLostKeyboardFocus(System.Windows.Input.KeyboardFocusChangedEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewLostKeyboardFocusKeyboardFocusChangedEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewLostKeyboardFocus(KeyboardFocusChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseDoubleClick(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseDoubleClickMouseButtonEventArgs">
+            <summary>Sets the stub of Control.OnPreviewMouseDoubleClick(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseLeftButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseLeftButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseLeftButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseLeftButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseLeftButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseMove(System.Windows.Input.MouseEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseMoveMouseEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseMove(MouseEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseRightButtonDown(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseRightButtonDownMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonDown(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseRightButtonUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseRightButtonUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseRightButtonUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseUp(System.Windows.Input.MouseButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseUpMouseButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseUp(MouseButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewMouseWheel(System.Windows.Input.MouseWheelEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewMouseWheelMouseWheelEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewMouseWheel(MouseWheelEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPreviewTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPreviewTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnPreviewTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnPropertyChanged(System.Windows.DependencyPropertyChangedEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnPropertyChangedDependencyPropertyChangedEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnPropertyChanged(DependencyPropertyChangedEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnQueryContinueDrag(System.Windows.QueryContinueDragEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnQueryContinueDragQueryContinueDragEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryContinueDrag(QueryContinueDragEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnQueryCursor(System.Windows.Input.QueryCursorEventArgs)">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnQueryCursorQueryCursorEventArgs">
+            <summary>Sets the stub of UIElement.OnQueryCursor(QueryCursorEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnRender(System.Windows.Media.DrawingContext)">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnRenderDrawingContext">
+            <summary>Sets the stub of UIElement.OnRender(DrawingContext drawingContext)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnRenderSizeChanged(System.Windows.SizeChangedInfo)">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnRenderSizeChangedSizeChangedInfo">
+            <summary>Sets the stub of FrameworkElement.OnRenderSizeChanged(SizeChangedInfo sizeInfo)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnSourceInitialized(System.EventArgs)">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnSourceInitializedEventArgs">
+            <summary>Sets the stub of Window.OnSourceInitialized(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStateChanged(System.EventArgs)">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStateChangedEventArgs">
+            <summary>Sets the stub of Window.OnStateChanged(EventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStyleChanged(System.Windows.Style,System.Windows.Style)">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStyleChangedStyleStyle">
+            <summary>Sets the stub of FrameworkElement.OnStyleChanged(Style oldStyle, Style newStyle)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusButtonDown(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusButtonDownStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonDown(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusButtonUp(System.Windows.Input.StylusButtonEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusButtonUpStylusButtonEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusButtonUp(StylusButtonEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusDown(System.Windows.Input.StylusDownEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusDownStylusDownEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusDown(StylusDownEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusEnter(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusEnterStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusEnter(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusInAirMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusInAirMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInAirMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusInRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusInRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusInRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusLeave(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusLeaveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusLeave(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusMove(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusMoveStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusMove(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusOutOfRange(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusOutOfRangeStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusOutOfRange(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusSystemGesture(System.Windows.Input.StylusSystemGestureEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusSystemGestureStylusSystemGestureEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusSystemGesture(StylusSystemGestureEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnStylusUp(System.Windows.Input.StylusEventArgs)">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnStylusUpStylusEventArgs">
+            <summary>Sets the stub of UIElement.OnStylusUp(StylusEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTemplateChanged(System.Windows.Controls.ControlTemplate,System.Windows.Controls.ControlTemplate)">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTemplateChangedControlTemplateControlTemplate">
+            <summary>Sets the stub of Control.OnTemplateChanged(ControlTemplate oldTemplate, ControlTemplate newTemplate)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTextInput(System.Windows.Input.TextCompositionEventArgs)">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTextInputTextCompositionEventArgs">
+            <summary>Sets the stub of UIElement.OnTextInput(TextCompositionEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnToolTipClosing(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnToolTipClosingToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipClosing(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnToolTipOpening(System.Windows.Controls.ToolTipEventArgs)">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnToolTipOpeningToolTipEventArgs">
+            <summary>Sets the stub of FrameworkElement.OnToolTipOpening(ToolTipEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTouchDown(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTouchDownTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchDown(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTouchEnter(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTouchEnterTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchEnter(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTouchLeave(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTouchLeaveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchLeave(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTouchMove(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTouchMoveTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchMove(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnTouchUp(System.Windows.Input.TouchEventArgs)">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnTouchUpTouchEventArgs">
+            <summary>Sets the stub of UIElement.OnTouchUp(TouchEventArgs e)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.OnVisualChildrenChanged(System.Windows.DependencyObject,System.Windows.DependencyObject)">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.OnVisualChildrenChangedDependencyObjectDependencyObject">
+            <summary>Sets the stub of Visual.OnVisualChildrenChanged(DependencyObject visualAdded, DependencyObject visualRemoved)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.ParentLayoutInvalidated(System.Windows.UIElement)">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.ParentLayoutInvalidatedUIElement">
+            <summary>Sets the stub of FrameworkElement.ParentLayoutInvalidated(UIElement child)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.ShouldSerializeContent">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.ShouldSerializeContent01">
+            <summary>Sets the stub of ContentControl.ShouldSerializeContent()</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.ShouldSerializeProperty(System.Windows.DependencyProperty)">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.ShouldSerializePropertyDependencyProperty">
+            <summary>Sets the stub of DependencyObject.ShouldSerializeProperty(DependencyProperty dp)</summary>
+        </member>
+        <member name="M:Customers.Fakes.StubCustomerView.ToString">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.ToString01">
+            <summary>Sets the stub of Control.ToString()</summary>
+        </member>
+        <member name="F:Customers.Fakes.StubCustomerView.VisualChildrenCountGet">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.HandlesScrolling">
+            <summary>Sets the stub of Control.get_HandlesScrolling()</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.HasEffectiveKeyboardFocus">
+            <summary>Sets the stub of UIElement.get_HasEffectiveKeyboardFocus()</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.IsEnabledCore">
+            <summary>Sets the stub of UIElement.get_IsEnabledCore()</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.LogicalChildren">
+            <summary>Sets the stub of Window.get_LogicalChildren()</summary>
+        </member>
+        <member name="P:Customers.Fakes.StubCustomerView.VisualChildrenCount">
+            <summary>Sets the stub of FrameworkElement.get_VisualChildrenCount()</summary>
+        </member>
+        <member name="T:Customers.Repositories.Fakes.ShimCustomerRepository">
+            <summary>Shim type of Customers.Repositories.CustomerRepository</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.ShimCustomerRepository.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.ShimCustomerRepository.#ctor(Customers.Repositories.CustomerRepository)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.ShimCustomerRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.ShimCustomerRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.ShimCustomerRepository.Bind(Customers.Repositories.ICustomerRepository)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.Constructor">
+            <summary>Sets the shim of CustomerRepository.CustomerRepository()</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.DeleteCustomer">
+            <summary>Sets the shim of CustomerRepository.Delete(Customer customer)</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.GetAll">
+            <summary>Sets the shim of CustomerRepository.GetAll()</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.GetByIdInt32">
+            <summary>Sets the shim of CustomerRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.SaveCustomer">
+            <summary>Sets the shim of CustomerRepository.Save(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Repositories.Fakes.ShimCustomerRepository.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.AllInstances.DeleteCustomer">
+            <summary>Sets the shim of CustomerRepository.Delete(Customer customer)</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.AllInstances.GetAll">
+            <summary>Sets the shim of CustomerRepository.GetAll()</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.AllInstances.GetByIdInt32">
+            <summary>Sets the shim of CustomerRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.ShimCustomerRepository.AllInstances.SaveCustomer">
+            <summary>Sets the shim of CustomerRepository.Save(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Repositories.Fakes.StubCustomerRepository">
+            <summary>Stub type of Customers.Repositories.CustomerRepository</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubCustomerRepository.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubCustomerRepository.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerRepository</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.StubCustomerRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.StubCustomerRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.Repositories.Fakes.StubCustomerRepository.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.Repositories.Fakes.StubICustomerRepository">
+            <summary>Stub type of Customers.Repositories.ICustomerRepository</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubICustomerRepository.#ctor">
+            <summary>Initializes a new instance of type StubICustomerRepository</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubICustomerRepository.c::Customers#Repositories#ICustomerRepository#Delete(Customers.DTO.Customer)">
+            <summary>Sets the stub of ICustomerRepository.Delete(Customer customer)</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubICustomerRepository.c::Customers#Repositories#ICustomerRepository#GetAll">
+            <summary>Sets the stub of ICustomerRepository.GetAll()</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubICustomerRepository.c::Customers#Repositories#ICustomerRepository#GetById(System.Int32)">
+            <summary>Sets the stub of ICustomerRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="M:Customers.Repositories.Fakes.StubICustomerRepository.c::Customers#Repositories#ICustomerRepository#Save(Customers.DTO.Customer)">
+            <summary>Sets the stub of ICustomerRepository.Save(Customer customer)</summary>
+        </member>
+        <member name="F:Customers.Repositories.Fakes.StubICustomerRepository.DeleteCustomer">
+            <summary>Sets the stub of ICustomerRepository.Delete(Customer customer)</summary>
+        </member>
+        <member name="F:Customers.Repositories.Fakes.StubICustomerRepository.GetAll">
+            <summary>Sets the stub of ICustomerRepository.GetAll()</summary>
+        </member>
+        <member name="F:Customers.Repositories.Fakes.StubICustomerRepository.GetByIdInt32">
+            <summary>Sets the stub of ICustomerRepository.GetById(Int32 id)</summary>
+        </member>
+        <member name="F:Customers.Repositories.Fakes.StubICustomerRepository.SaveCustomer">
+            <summary>Sets the stub of ICustomerRepository.Save(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Services.Fakes.ShimRatingService">
+            <summary>Shim type of Customers.Services.RatingService</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.ShimRatingService.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.ShimRatingService.#ctor(Customers.Services.RatingService)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.ShimRatingService.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.ShimRatingService.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.ShimRatingService.Bind(Customers.Services.IRatingService)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.ShimRatingService.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.ShimRatingService.Constructor">
+            <summary>Sets the shim of RatingService.RatingService()</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.ShimRatingService.RateCustomer">
+            <summary>Sets the shim of RatingService.Rate(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Services.Fakes.ShimRatingService.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.ShimRatingService.AllInstances.RateCustomer">
+            <summary>Sets the shim of RatingService.Rate(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Services.Fakes.StubIRatingService">
+            <summary>Stub type of Customers.Services.IRatingService</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.StubIRatingService.#ctor">
+            <summary>Initializes a new instance of type StubIRatingService</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.StubIRatingService.c::Customers#Services#IRatingService#Rate(Customers.DTO.Customer)">
+            <summary>Sets the stub of IRatingService.Rate(Customer customer)</summary>
+        </member>
+        <member name="F:Customers.Services.Fakes.StubIRatingService.RateCustomer">
+            <summary>Sets the stub of IRatingService.Rate(Customer customer)</summary>
+        </member>
+        <member name="T:Customers.Services.Fakes.StubRatingService">
+            <summary>Stub type of Customers.Services.RatingService</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.StubRatingService.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.Services.Fakes.StubRatingService.InitializeStub">
+            <summary>Initializes a new instance of type StubRatingService</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.StubRatingService.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.StubRatingService.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.Services.Fakes.StubRatingService.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.ShimCustomerViewModel">
+            <summary>Shim type of Customers.ViewModels.CustomerViewModel</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimCustomerViewModel.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimCustomerViewModel.#ctor(Customers.ViewModels.CustomerViewModel)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimCustomerViewModel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimCustomerViewModel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimCustomerViewModel.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.ConstructorCustomerIRatingServiceICustomerRepository">
+            <summary>Sets the shim of CustomerViewModel.CustomerViewModel(Customer customer, IRatingService ratingService, ICustomerRepository customerRepository)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.DisplayLastUpdatedGet">
+            <summary>Sets the shim of CustomerViewModel.get_DisplayLastUpdated()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.DisplayLastUpdatedSetDateTime">
+            <summary>Sets the shim of CustomerViewModel.set_DisplayLastUpdated(DateTime value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.DisplayRateGet">
+            <summary>Sets the shim of CustomerViewModel.get_DisplayRate()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.NameGet">
+            <summary>Sets the shim of CustomerViewModel.get_Name()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.NameSetString">
+            <summary>Sets the shim of CustomerViewModel.set_Name(String value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.SaveCommandGet">
+            <summary>Sets the shim of CustomerViewModel.get_SaveCommand()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.SaveCommandSetAlwaysExecuteCommand">
+            <summary>Sets the shim of CustomerViewModel.set_SaveCommand(AlwaysExecuteCommand value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.Update">
+            <summary>Sets the shim of CustomerViewModel.Update()</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.DisplayLastUpdatedGet">
+            <summary>Sets the shim of CustomerViewModel.get_DisplayLastUpdated()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.DisplayLastUpdatedSetDateTime">
+            <summary>Sets the shim of CustomerViewModel.set_DisplayLastUpdated(DateTime value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.DisplayRateGet">
+            <summary>Sets the shim of CustomerViewModel.get_DisplayRate()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.NameGet">
+            <summary>Sets the shim of CustomerViewModel.get_Name()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.NameSetString">
+            <summary>Sets the shim of CustomerViewModel.set_Name(String value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.SaveCommandGet">
+            <summary>Sets the shim of CustomerViewModel.get_SaveCommand()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.SaveCommandSetAlwaysExecuteCommand">
+            <summary>Sets the shim of CustomerViewModel.set_SaveCommand(AlwaysExecuteCommand value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimCustomerViewModel.AllInstances.Update">
+            <summary>Sets the shim of CustomerViewModel.Update()</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.ShimViewModelBase">
+            <summary>Shim type of Customers.ViewModels.ViewModelBase</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimViewModelBase.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimViewModelBase.#ctor(Customers.ViewModels.ViewModelBase)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimViewModelBase.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimViewModelBase.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.ShimViewModelBase.Bind(System.ComponentModel.INotifyPropertyChanged)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.Constructor">
+            <summary>Sets the shim of ViewModelBase.ViewModelBase()</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.OnPropertyChangedString">
+            <summary>Sets the shim of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.ShimViewModelBase.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.AllInstances.OnPropertyChangedString">
+            <summary>Sets the shim of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.AllInstances.PropertyChangedAddPropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.add_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.ShimViewModelBase.AllInstances.PropertyChangedRemovePropertyChangedEventHandler">
+            <summary>Sets the shim of ViewModelBase.remove_PropertyChanged(PropertyChangedEventHandler value)</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.StubCustomerViewModel">
+            <summary>Stub type of Customers.ViewModels.CustomerViewModel</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubCustomerViewModel.#ctor(Customers.DTO.Customer,Customers.Services.IRatingService,Customers.Repositories.ICustomerRepository)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubCustomerViewModel.InitializeStub">
+            <summary>Initializes a new instance of type StubCustomerViewModel</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubCustomerViewModel.OnPropertyChanged(System.String)">
+            <summary>Sets the stub of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="F:Customers.ViewModels.Fakes.StubCustomerViewModel.OnPropertyChangedString">
+            <summary>Sets the stub of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubCustomerViewModel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubCustomerViewModel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubCustomerViewModel.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Customers.ViewModels.Fakes.StubViewModelBase">
+            <summary>Stub type of Customers.ViewModels.ViewModelBase</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubViewModelBase.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubViewModelBase.InitializeStub">
+            <summary>Initializes a new instance of type StubViewModelBase</summary>
+        </member>
+        <member name="M:Customers.ViewModels.Fakes.StubViewModelBase.OnPropertyChanged(System.String)">
+            <summary>Sets the stub of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="F:Customers.ViewModels.Fakes.StubViewModelBase.OnPropertyChangedString">
+            <summary>Sets the stub of ViewModelBase.OnPropertyChanged(String propertyName)</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubViewModelBase.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubViewModelBase.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Customers.ViewModels.Fakes.StubViewModelBase.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
